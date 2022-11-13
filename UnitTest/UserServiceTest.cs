@@ -27,8 +27,7 @@ public class UserServiceTest
         var result = _userservice.Add(3, 3);
 
         //Assert    
-        //Assert.That(result, Is.EqualTo(6));
+        Assert.That(result, Is.EqualTo(6));
 
-        Assert.Equal(3, result);
     }
 }
